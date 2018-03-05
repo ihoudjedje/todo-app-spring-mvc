@@ -19,6 +19,7 @@
     </bean>
 	
 	<mvc:resources mapping="/webjars/**" location="/webjars/"/>
+	<mvc:resources mapping="/resource/**" location="/resource/theme0/" cache-period="31556926"/>
 	
 	    <mvc:annotation-driven />
 	    
